@@ -86,7 +86,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     // ⚠️ GitHub Pagesの公開URL（絶対パス）に必ず変更してください
-    const siteUrl = 'https://cosmobase.example.com';
+    const siteUrl = 'https://cosmo-base.github.io/opening/';
 
     const ogImageUrl = `${siteUrl}/${data.img_share}`;
 
