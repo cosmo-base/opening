@@ -126,7 +126,7 @@ export default async function StaticResultPage({ params }: Props) {
 
     return (
         <div className="min-h-screen bg-[#000033] text-white flex flex-col items-center justify-center p-6 font-sans">
-            <img src="/CB_type.png" alt="CBtype" className="w-50 pb-6 h-auto object-contain rounded-xl filter" />
+            <img src="/opening/CB_type.png" alt="CBtype" className="w-50 pb-6 h-auto object-contain rounded-xl filter" />
 
             {/* メイン結果カード */}
             <div
@@ -134,7 +134,7 @@ export default async function StaticResultPage({ params }: Props) {
                 style={{ backgroundColor: data.color }}
             >
                 <div className="w-full flex items-center justify-center mb-6">
-                    <img src={`/${data.img}`} alt={data.title} className="w-full max-w-[450px] h-auto object-contain rounded-xl filter" />
+                    <img src={`/opening/${data.img}`} alt={data.title} className="w-full max-w-[450px] h-auto object-contain rounded-xl filter" />
                 </div>
 
                 <p className="font-bold text-sm  tracking-widest mb-2 text-[#000033]/70">この方の宇宙タイプは...</p>
@@ -172,7 +172,7 @@ export default async function StaticResultPage({ params }: Props) {
                                     style={{ backgroundColor: otherData.color }}
                                 ></div>
 
-                                <img className="w-25" src={`/${otherData.img}`} />
+                                <img className="w-25" src={`/opening/${otherData.img}`} />
                                 <div>
                                     <h3 className="font-serif font-bold text-md text-[#EEEEFF]">{otherData.title} タイプ</h3>
                                     <p className="text-xs text-gray-400 mt-1">{otherData.catchcopy}</p>
