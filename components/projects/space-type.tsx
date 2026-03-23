@@ -101,7 +101,6 @@ function ResultScreen({ answers }: { answers: number[] }) {
 
   // SNSシェア関数をX用とInstagram用に分割・高機能化
   const handleXShare = () => {
-    // ※本番のURLに変更してください。OGPを出し分けるため、末尾に resultType を付与します。
     const shareUrl = `https://cosmo-base.github.io/opening/projects/space-type/result/${resultType}`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(data.shareText)}&url=${encodeURIComponent(shareUrl)}`;
     window.open(twitterUrl, '_blank');
