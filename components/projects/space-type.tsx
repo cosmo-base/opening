@@ -1,6 +1,7 @@
 "use client";
 import { Telescope, Satellite, Rocket, Building, ArrowLeft, ArrowRight, Share2, CheckCircle, Earth, } from "lucide-react"
 import React, { useState, useEffect, useMemo } from 'react';
+import Link from 'next/link';
 
 // ==========================================
 // 1. データ定義（質問＆結果）
