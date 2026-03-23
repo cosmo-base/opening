@@ -102,14 +102,14 @@ function ResultScreen({ answers }: { answers: number[] }) {
   // SNSシェア関数をX用とInstagram用に分割・高機能化
   const handleXShare = () => {
     // ※本番のURLに変更してください。OGPを出し分けるため、末尾に resultType を付与します。
-    const shareUrl = `https://cosmobase.example.com/result/${resultType}`;
+    const shareUrl = `https://cosmo-base.github.io/opening/projects/space-type/result/${resultType}`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(data.shareText)}&url=${encodeURIComponent(shareUrl)}`;
     window.open(twitterUrl, '_blank');
   };
 
   const handleInstagramShare = async () => {
     const shareText = data.shareText;
-    const imageUrl = `/${data.img_share}`;
+    const imageUrl = `/opening/${data.img_share}`;
     const fileName = `cosmobase_${resultType}.png`;
 
     try {
@@ -301,8 +301,6 @@ export function SpaceType() {
           const axis1 = R >= D ? 'R' : 'D';
           const axis2 = I >= E ? 'I' : 'O';
           const resultType = `${axis1}${axis2}`;
-
-          // 🔥 先ほどコピーしたウェブアプリのURLをここに貼る
           const GAS_URL = "https://script.google.com/macros/s/AKfycbxVB4AVfOcXCcUlIwGSEAlZ988OzzvfjV8Biq_J7WwyvnkFbgMZzoOicK1_LRAfT497/exec";
 
           await fetch(GAS_URL, {
