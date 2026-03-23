@@ -237,11 +237,11 @@ function ResultScreen({ answers }: { answers: number[] }) {
           <p className="text-sm text-gray-400 mb-4">あなたの結果をシェアして仲間を見つけよう</p>
           <div className="flex flex-col gap-3">
             <button onClick={handleXShare} className="flex items-center justify-center w-full gap-2 bg-black border border-gray-600 hover:bg-gray-900 text-white font-bold py-3 rounded-full text-sm transition">
-              <img src={`/opening/x.png`} alt={`X icon`} className="w-4 h-4 " aria-hidden="true" />
+              <img src={`/opening/X.png`} alt={`X icon`} className="w-4 h-4 " aria-hidden="true" />
               X (Twitter) で結果をシェア
             </button>
             <button onClick={handleInstagramShare} className="flex items-center justify-center w-full gap-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 hover:opacity-90 text-white font-bold py-3 rounded-full text-sm transition shadow-md">
-              <img src={`/opening/instagram.png`} alt={`Instagram icon`} className="w-5 h-5" aria-hidden="true" />
+              <img src={`/opening/Instagram.png`} alt={`Instagram icon`} className="w-5 h-5" aria-hidden="true" />
               Instagram で結果をシェア
             </button>
           </div>
