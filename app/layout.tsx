@@ -24,15 +24,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/CosmoBase icon.png',
+        url: '/opening/CosmoBase icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/CosmoBase icon.png',
+        url: '/opening/CosmoBase icon.png',
         media: '(prefers-color-scheme: dark)',
       },
     ],
-    apple: '/CosmoBase icon.png',
+    apple: '/opening/CosmoBase icon.png',
   },
 }
 
