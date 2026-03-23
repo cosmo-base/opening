@@ -164,8 +164,16 @@ function ResultScreen({ answers }: { answers: number[] }) {
 
   return (
     <div className="bg-[#0B0F19] text-white p-6 flex flex-col items-center font-sans pb-20 animate-fade-in">
+     {/* Back link */}
+      <div className="fixed top-6 left-6 z-50">
+        <Link href="/"
+          className="glass inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm text-foreground hover:text-cyan transition-colors">
+          <ArrowLeft className="h-4 w-4" />
+          <span>トップに戻る</span>
+        </Link>
+      </div>
       {/* 結果ドン！ */}
-      <div className="bg-[#0B0F19] text-white p-4 flex flex-col items-center font-sans pb-6 animate-fade-in">
+      <div className="bg-[#0B0F19] text-white p-4 flex flex-col items-center font-sans　pt-10 pb-6 animate-fade-in">
         <div
           className="rounded-2xl p-6 w-full max-w-md shadow-2xl border-4 border-white/20"
           style={{ backgroundColor: data.color }}
