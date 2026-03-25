@@ -40,7 +40,8 @@ export function HeroSection() {
         </p>
 
         {/* CTA Button */}
-        <a href="https://discord.gg/spv3TBRpFU">
+        <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
+          {/*<a href="https://discord.gg/spv3TBRpFU">*/}
           <button
             className="group relative inline-flex items-center gap-3 rounded-full px-8 py-4 text-lg font-semibold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
             style={{background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",}}
