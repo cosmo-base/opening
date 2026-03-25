@@ -21,7 +21,7 @@ export function HeroSection() {
           className="glass inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm text-foreground hover:text-cyan transition-colors"
         >
           <ArrowLeft className="h-4 w-4" />
-          <span>トップに戻る</span>
+          <span>Cosmo Baseホームページに戻る</span>
         </a>
       </div>
 
