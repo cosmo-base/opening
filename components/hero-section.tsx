@@ -1,6 +1,6 @@
 "use client"
 
-import { Rocket } from "lucide-react"
+import { Rocket, ArrowLeft } from "lucide-react"
 import { StarField } from "./star-field"
 
 export function HeroSection() {
