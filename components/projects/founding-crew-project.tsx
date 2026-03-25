@@ -88,8 +88,8 @@ export function FoundingCrewProject() {
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto mb-4">
             'Cosmo Base 最初の1000人の"ファーストクルー"を募集'
           </p>
-
-          <a href="https://discord.gg/spv3TBRpFU">
+          <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
+            {/*<a href="https://discord.gg/spv3TBRpFU">*/}
             <button
               className="group relative inline-flex items-center gap-3 rounded-full px-8 py-4 text-lg font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
               style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}>
@@ -250,7 +250,8 @@ export function FoundingCrewProject() {
             ファーストクルーとして乗船する
           </h2>
 
-          <a href="https://discord.gg/spv3TBRpFU">
+          <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
+            {/*<a href="https://discord.gg/spv3TBRpFU">*/}
             <button
               className="group relative inline-flex items-center gap-3 rounded-full px-10 py-5 text-lg md:text-xl font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
               style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}>
