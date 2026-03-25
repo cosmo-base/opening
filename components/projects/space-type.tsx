@@ -233,7 +233,8 @@ function ResultScreen({ answers }: { answers: number[] }) {
           ✨ 専門知識は一切いりません ✨
         </div>
         <p className="text-sm text-gray-400 mb-2">同じタイプの人が集まる場所はこちら</p>
-        <a href="https://discord.gg/spv3TBRpFU">
+        <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
+          {/*<a href="https://discord.gg/spv3TBRpFU">*/}
           <button className="group relative inline-flex items-center gap-3 rounded-full px-6 py-4 w-full bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-400 hover:to-indigo-500 text-white font-bold  text-lg shadow-lg transform transition hover:scale-105 mb-6">
             <img src="/opening/CB_icon.png" className="h-8 w-8" />
             無料でCosmo Baseに参加する
