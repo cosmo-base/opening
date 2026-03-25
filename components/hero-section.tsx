@@ -15,6 +15,16 @@ export function HeroSection() {
       {/* Star field canvas */}
       <StarField />
 
+     {/* Back link */}
+      <div className="fixed top-6 left-6 z-50">
+        <a href="https://fsifofficial.github.io/CosmoBase/"
+          className="glass inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm text-foreground hover:text-cyan transition-colors"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          <span>トップに戻る</span>
+        </a>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center px-6 text-center max-w-4xl mx-auto">
         {/* Badge */}
