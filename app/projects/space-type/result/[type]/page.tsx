@@ -25,6 +25,7 @@ const RESULT_DATA: Record<string, any> = {
         shareText: "宇宙、ロマンすぎない？って思ってる【天文台トラベラー】でした🔭 #CosmoBase宇宙診断",
         img: "RI.png",
         img_share: "RI_share.png",
+        img_Xshare: "RI_Xshare.png",
         color: "#cbace4",
     },
     DI: {
@@ -37,6 +38,7 @@ const RESULT_DATA: Record<string, any> = {
         shareText: "いろんな角度から宇宙楽しみたい【人工衛星】タイプでした🛰️ #CosmoBase宇宙診断",
         img: "DI.png",
         img_share: "DI_share.png",
+        img_Xshare: "DI_Xshare.png",
         color: "#85c68b",
     },
     RO: {
@@ -49,6 +51,7 @@ const RESULT_DATA: Record<string, any> = {
         shareText: "気づいたら一歩踏み出してる【ロケット打ち上げ】でした🚀 #CosmoBase宇宙診断",
         img: "RO.png",
         img_share: "RO_share.png",
+        img_Xshare: "RO_Xshare.png",
         color: "#EEEEBB",
     },
     DO: {
@@ -61,6 +64,7 @@ const RESULT_DATA: Record<string, any> = {
         shareText: "気づいたら詳しくなってる【宇宙ステーション】でした🌍 #CosmoBase宇宙診断",
         img: "DO.png",
         img_share: "DO_share.png",
+        img_Xshare: "DO_Xshare.png",
         color: "#83CBEB",
     }
 };
@@ -88,7 +92,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // ⚠️ GitHub Pagesの公開URL（絶対パス）に必ず変更してください
     const siteUrl = 'https://cosmo-base.github.io/opening/';
 
-    const ogImageUrl = `${siteUrl}/${data.img_share}?v=2`;
+    const ogImageUrl = `${siteUrl}/${data.img_Xshare}?v=2`;
 
     return {
         title: `${data.title} | Cosmo Base 宇宙タイプ診断`,
@@ -102,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             type: 'website',
         },
         twitter: {
-            card: 'summary',
+            card: 'summary_large_image',
             title: `${data.title} | Cosmo Base 宇宙タイプ診断`,
             description: '30秒の診断で、あなたが宇宙で活躍する未来がわかる。',
             images: [ogImageUrl],
