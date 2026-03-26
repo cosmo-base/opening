@@ -71,11 +71,11 @@ const RESULT_DATA: Record<ResultType, any> = {
 // コンテンツの飛び先URL一覧（辞書）
 // ==========================================
 const CONTENT_LINKS: Record<string, string> = {
-  "毎日宇宙クイズ": "",
-  "週刊宇宙ニュース": "",
-  "Cosmo Baseで宇宙知っトク": "",
-  "Cosmo Baseで宇宙教えて": "",
-  "Cosmo Base Library": "https://cosmo-base.github.io/library/index.html",
+  "毎日宇宙クイズ": "https://note.com/cosmobase/n/n90da43eb38df",
+  "週刊宇宙ニュース": "https://note.com/cosmobase/n/n478766fa448f",
+  "Cosmo Baseで宇宙知っトク": "https://note.com/cosmobase/n/n459994754c87",
+  "Cosmo Baseで宇宙教えて": "https://note.com/cosmobase/n/ndcd6e5f8d215",
+  "Cosmo Base Library": "",
   "宇宙に行っといで": "",
   "Cosmo Base Event Database": "",
   "Space Voyager 検定": "",
