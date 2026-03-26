@@ -102,7 +102,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             type: 'website',
         },
         twitter: {
-            card: 'summary_large_image',
+            card: 'summary',
             title: `${data.title} | Cosmo Base 宇宙タイプ診断`,
             description: '30秒の診断で、あなたが宇宙で活躍する未来がわかる。',
             images: [ogImageUrl],
