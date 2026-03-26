@@ -88,7 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // ⚠️ GitHub Pagesの公開URL（絶対パス）に必ず変更してください
     const siteUrl = 'https://cosmo-base.github.io/opening/';
 
-    const ogImageUrl = `${siteUrl}/${data.img_share}`;
+    const ogImageUrl = `${siteUrl}/${data.img_share}?v=2`;
 
     return {
         title: `${data.title} | Cosmo Base 宇宙タイプ診断`,
