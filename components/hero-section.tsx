@@ -2,6 +2,7 @@
 
 import { Rocket, ArrowLeft } from "lucide-react"
 import { StarField } from "./star-field"
+import { AutoLink } from "./auto-kink"
 
 export function HeroSection() {
   return (
