@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { Rocket, Calendar, MapPin, Clock, Users, Mic, MessageCircle, ArrowLeft, ArrowRight, CheckCircle, } from "lucide-react"
 import { StarField } from "@/components/star-field"
+import { Form } from "@/components/projects/event-form"
 
 const eventDetails = [
   {
@@ -83,7 +84,9 @@ export function SpaceEvent() {
           </div>
 
           <div className="block">
-            <a >
+            <a href="#form-section" onClick={(e) => {
+                e.preventDefault(); document.querySelector('#form-section')?.scrollIntoView({ behavior: 'smooth' });
+              }}>
               <button
                 className="group relative inline-flex items-center gap-3 rounded-full px-8 py-4 text-lg font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
                 style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}>
@@ -92,6 +95,7 @@ export function SpaceEvent() {
               </button>
             </a>
           </div>
+
         </div>
       </section>
 
@@ -201,7 +205,7 @@ export function SpaceEvent() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 md:py-32">
+      <section id="form-section" className="relative py-24 md:py-32">
         <div
           className="absolute top-0 left-0 right-0 h-px"
           style={{ background: "linear-gradient(90deg, transparent 0%, rgba(79,172,254,0.3) 50%, transparent 100%)", }}
@@ -213,16 +217,7 @@ export function SpaceEvent() {
           <p className="text-muted-foreground mb-10">
             通知登録しておくと、開催日が決まり次第ご連絡します
           </p>
-
-          <a>
-            <button
-              className="group relative inline-flex items-center gap-3 rounded-full px-10 py-5 text-lg md:text-xl font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
-              style={{background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)",}}
-            >
-              <span>情報を受け取る</span>
-              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </button>
-          </a>
+          <Form />
         </div>
       </section>
 
