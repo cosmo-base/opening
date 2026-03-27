@@ -3,6 +3,7 @@
 import Link from "next/link"
 import {Rocket,ArrowLeft,ArrowRight,Share2,Award,BadgeCheck,MessageSquare,Star,ClipboardList,Forward,Inbox} from "lucide-react"
 import { StarField } from "@/components/star-field"
+import { AutoLink } from "@/components/auto-link"
 
 // Simulated current count
 const currentCount = 36
@@ -88,15 +89,14 @@ export function FoundingCrewProject() {
           <p className="text-lg md:text-xl leading-relaxed text-muted-foreground max-w-2xl mx-auto mb-4">
             'Cosmo Base 最初の1000人の"ファーストクルー"を募集'
           </p>
-          <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
-            {/*<a href="https://discord.gg/spv3TBRpFU">*/}
+          <AutoLink> 
             <button
               className="group relative inline-flex items-center gap-3 rounded-full px-8 py-4 text-lg font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
               style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}>
               <span>ファーストクルーとして参加する</span>
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </button>
-          </a>
+          </AutoLink>
         </div>
       </section>
 
@@ -250,15 +250,14 @@ export function FoundingCrewProject() {
             ファーストクルーとして乗船する
           </h2>
 
-          <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer"> 
-            {/*<a href="https://discord.gg/spv3TBRpFU">*/}
+          <AutoLink> 
             <button
               className="group relative inline-flex items-center gap-3 rounded-full px-10 py-5 text-lg md:text-xl font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
               style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}>
               <span>今すぐ参加する</span>
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </button>
-          </a>
+          </AutoLink>
         </div>
       </section>
 
