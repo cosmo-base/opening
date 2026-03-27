@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { Rocket, Calendar, MapPin, Clock, Users, Mic, MessageCircle, ArrowLeft, ArrowRight, CheckCircle, } from "lucide-react"
 import { StarField } from "@/components/star-field"
-import { Form } from "@/components/projects/event-form"
+import { EventForm } from "@/components/projects/event-form"
 
 const eventDetails = [
   {
@@ -217,7 +217,7 @@ export function SpaceEvent() {
           <p className="text-muted-foreground mb-10">
             通知登録しておくと、開催日が決まり次第ご連絡します
           </p>
-          <Form />
+          <EventForm />
         </div>
       </section>
 
