@@ -1,6 +1,7 @@
 "use client"
 
 import { Share2,Rocket } from "lucide-react"
+import { AutoLink } from "@/components/auto-link"
 
 const snsLinks = [
   { name: "X", url: "https://x.com/CosmoBase" },
@@ -42,8 +43,7 @@ export function FooterCtaSection() {
         </p>
 
         {/* Big CTA */}
-        <a href="https://fsifofficial.github.io/CosmoBase/coming-soon" rel="noopener noreferrer">     
-          {/* <a href="https://discord.gg/spv3TBRpFU">*/}
+        <AutoLink>
           <button
             className="group relative inline-flex items-center gap-3 rounded-full px-10 py-5 text-lg md:text-xl font-bold text-primary-foreground transition-all duration-300 animate-glow-pulse hover:scale-105 cursor-pointer"
             style={{ background: "linear-gradient(135deg, #00f2fe 0%, #4facfe 100%)", }}
@@ -51,7 +51,7 @@ export function FooterCtaSection() {
             <span>Cosmo Baseをのぞいてみる（無料・特典あり）</span>
             <Rocket className="h-6 w-6 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
           </button>
-        </a>
+        </AutoLink>
 
 {/* SNS Share */}
       <section className="relative py-16">
