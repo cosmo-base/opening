@@ -76,7 +76,7 @@ const CONTENT_LINKS: Record<string, string> = {
   "Cosmo Baseで宇宙知っトク": "https://note.com/cosmobase/n/n459994754c87",
   "Cosmo Baseで宇宙教えて": "https://note.com/cosmobase/n/ndcd6e5f8d215",
   "Cosmo Base Library": "",
-  "宇宙に行っといで": "",
+  "宇宙に行っといで": "https://note.com/cosmobase/n/n34f33f9c23e6",
   "Cosmo Base Event Database": "",
   "Space Voyager 検定": "",
   "宇宙のイベント行ってきた": ""
