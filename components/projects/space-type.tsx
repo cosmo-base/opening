@@ -76,11 +76,11 @@ const CONTENT_LINKS: Record<string, string> = {
   "週刊宇宙ニュース": "https://note.com/cosmobase/n/n478766fa448f",
   "Cosmo Baseで宇宙知っトク": "https://note.com/cosmobase/n/n459994754c87",
   "Cosmo Baseで宇宙教えて": "https://note.com/cosmobase/n/ndcd6e5f8d215",
-  "Cosmo Base Library": "",
+  "Cosmo Base Library": "https://note.com/cosmobase/n/n9d1b7c985c18",
   "宇宙に行っといで": "https://note.com/cosmobase/n/n34f33f9c23e6",
-  "Cosmo Base Event Database": "",
-  "Space Voyager 検定": "",
-  "宇宙のイベント行ってきた": ""
+  "Cosmo Base Event Database": "https://note.com/cosmobase/n/n918f05ad94c3",
+  "Space Voyager 検定": "https://note.com/cosmobase/n/n1bada8fe3ce4",
+  "宇宙のイベント行ってきた": "https://note.com/cosmobase/n/n6de912259db4"
 };
 
 // ==========================================
