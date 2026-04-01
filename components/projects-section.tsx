@@ -25,13 +25,13 @@ const projects: ProjectCard[] = [
     href: "/projects/space-type",
   },
   {
-    id: "founding-crew",
+    id: "thousand-crew",
     icon: Users,
     title: "1000人乗船プロジェクト",
     description:
       "最初の1000人には特別な「ファーストクルー」の称号をプレゼント。限定バッジや参加証明書など、うれしい特典つきです。",
     accent: "#4facfe",
-    href: "/projects/founding-crew",
+    href: "/projects/thousand-crew",
   },
   {
     id: "cosmo-base-week",
